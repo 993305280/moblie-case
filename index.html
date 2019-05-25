@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,minimum-scale=1, user-scalable=no">
+	<title>移动端通用适配</title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/icons.css">
+	<link rel="stylesheet" href="css/index.css">
+	<script>	
+		// 终端检测
+		var isMoblie = navigator.userAgent.match(/android|ipnone|ipad|ipod/i);
+		if (isMoblie) {
+			//android|ipnone|ipad|ipod(手机端)跳百度
+			// location.href = "http://www.baidu.com"
+		} else {
+			//其余跳淘宝网
+			// location.href = "http://www.taobao.com"
+		}
+	</script>
+</head>
+<body>
+	<div class="header_container">
+		<div class="nav_left">
+			<i class="iconfont icon-scan"></i>
+		</div>
+		<div class="nav_center">
+			<div class="search_icon">
+				<i class="iconfont icon-search"></i>
+			</div>
+			<input type="text" placeholder="搜索">
+			<div class="close_icon">
+				<i class="iconfont icon-close"></i>
+			</div>
+			
+		</div>
+		
+		<div class="nav_right">
+			<i class="iconfont icon-msg"></i>
+		</div>
+	</div>
+	<div class="main_container">
+		<div class="slider_container">
+			<img src="img/slider/1.jpg" alt="">
+		</div>
+		<div class="nav_container">
+			<ul>
+				<li><a href="##">
+					<img src="img/nav/1.png" alt="">
+					<p>团购</p>
+				</a></li>
+				<li><a href="##">
+					<img src="img/nav/2.png" alt="">
+					<p>一元购</p>
+				</a></li>
+				<li><a href="##">
+					<img src="img/nav/3.png" alt="">
+					<p>优惠券</p>
+				</a></li>
+				<li><a href="##">
+					<img src="img/nav/4.png" alt="">
+					<p>教育</p>
+				</a></li>
+				<li><a href="##">
+					<img src="img/nav/5.png" alt="">
+					<p>旅行</p>
+				</a></li>
+				<li><a href="##">
+					<img src="img/nav/6.png" alt="">
+					<p>在线订餐</p>
+				</a></li>
+				<li><a href="##">
+					<img src="img/nav/7.png" alt="">
+					<p>庆典</p>
+				</a></li>
+				<li><a href="##">
+					<img src="img/nav/8.png" alt="">
+					<p>秒杀</p>
+				</a></li>
+				<li><a href="##">
+					<img src="img/nav/9.png" alt="">
+					<p>拍卖</p>
+				</a></li>
+				<li><a href="##">
+					<img src="img/nav/10.png" alt="">
+					<p>服务</p>
+				</a></li>
+			</ul>
+		</div>
+		<div class="goods_container">
+			<ul>
+				<li><a href="##">
+					<img class="loadLazy" src="img/loading.gif" data-src="img/recommend/1.jpg" alt="">
+					<div class="goods_text">
+						<h5>欧派整体书柜定制简约现代</h5>
+						<div class="old_price">￥2000.00</div>
+						<div class="goods_info">
+							<div class="new_price">￥<strong>1000</strong></div>
+							<div class="goods_mai">985件已售</div>
+						</div>
+					</div>
+					
+				</a></li>
+				<li><a href="##">
+					<img class="loadLazy" src="img/loading.gif" data-src="img/recommend/2.jpg" alt="">
+					<div class="goods_text">
+						<h5>维55时4K超高清HDR</h5>
+						<div class="old_price">￥2000.00</div>
+						<div class="goods_info">
+							<div class="new_price">￥<strong>2299</strong></div>
+							<div class="goods_mai">63件已售</div>
+						</div>
+					</div>
+					
+				</a></li>
+				<li><a href="##">
+					<img class="loadLazy" src="img/loading.gif" data-src="img/recommend/3.jpg" alt="">
+					<div class="goods_text">
+						<h5>【到手259元】5L电压堡</h5>
+						<div class="old_price">￥2000.00</div>
+						<div class="goods_info">
+							<div class="new_price">￥<strong>299</strong></div>
+							<div class="goods_mai">1908件已售</div>
+						</div>
+					</div>
+					
+				</a></li>
+				<li><a href="##">
+					<img class="loadLazy" src="img/loading.gif" data-src="img/recommend/4.jpg" alt="">
+					<div class="goods_text">
+						<h5>三只坚果礼包</h5>
+						<div class="old_price">￥2000.00</div>
+						<div class="goods_info">
+							<div class="new_price">￥<strong>108</strong></div>
+							<div class="goods_mai">9532件已售</div>
+						</div>
+					</div>
+					
+				</a></li>
+				<li><a href="##">
+					<img class="loadLazy" src="img/loading.gif" data-src="img/recommend/5.jpg" alt="">
+					<div class="goods_text">
+						<h5>蓝月亮洗衣液12斤</h5>
+						<div class="old_price">￥2000.00</div>
+						<div class="goods_info">
+							<div class="new_price">￥<strong>89.9</strong></div>
+							<div class="goods_mai">5399件已售</div>
+						</div>
+					</div>
+					
+				</a></li>
+				<li><a href="##">
+					<img class="loadLazy" src="img/loading.gif" data-src="img/recommend/6.jpg" alt="">
+					<div class="goods_text">
+						<h5>福临门玉米油</h5>
+						<div class="old_price">￥2000.00</div>
+						<div class="goods_info">
+							<div class="new_price">￥<strong>89.9</strong></div>
+							<div class="goods_mai">6294件已售</div>
+						</div>
+					</div>
+					
+				</a></li>
+				<li><a href="##">
+					<img class="loadLazy" src="img/loading.gif" data-src="img/recommend/7.jpg" alt="">
+					<div class="goods_text">
+						<h5>TP-LINK全千兆端口路由</h5>
+						<div class="old_price">￥2000.00</div>
+						<div class="goods_info">
+							<div class="new_price">￥<strong>169</strong></div>
+							<div class="goods_mai">4255件已售</div>
+						</div>
+					</div>
+					
+				</a></li>
+				<li><a href="##">
+					<img class="loadLazy" src="img/loading.gif" data-src="img/recommend/8.jpg" alt="">
+					<div class="goods_text">
+						<h5>【前1800名再减50】家用高压</h5>
+						<div class="old_price">￥2000.00</div>
+						<div class="goods_info">
+							<div class="new_price">￥<strong>268</strong></div>
+							<div class="goods_mai">1599件已售</div>
+						</div>
+					</div>
+					
+				</a></li>
+				<li><a href="##">
+					<img class="loadLazy" src="img/loading.gif" data-src="img/recommend/9.jpg" alt="">
+					<div class="goods_text">
+						<h5>德国rusch辅机</h5>
+						<div class="old_price">￥2000.00</div>
+						<div class="goods_info">
+							<div class="new_price">￥<strong>159</strong></div>
+							<div class="goods_mai">985件已售</div>
+						</div>
+					</div>
+					
+				</a></li>
+				<li><a href="##">
+					<img class="loadLazy" src="img/loading.gif" data-src="img/recommend/10.jpg" alt="">
+					<div class="goods_text">
+						<h5>细雨之尚红枣500g*5袋</h5>
+						<div class="old_price">￥2000.00</div>
+						<div class="goods_info">
+							<div class="new_price">￥<strong>29.9</strong></div>
+							<div class="goods_mai">15049件已售</div>
+						</div>
+					</div>
+					
+				</a></li>
+				
+			</ul>
+		</div>
+	</div>
+	<div class="tabbar_container">
+		<ul>
+			<li>
+				<a href="##" class="tabbar_items tabbar_items_active">
+					<i class="iconfont icon-home"></i>
+					<span>首页</span>
+				</a>	
+			</li>
+			<li>
+				<a href="##" class="tabbar_items">
+					<i class="iconfont icon-category"></i>
+					<span>分类页</span>
+				</a>
+			</li>
+			<li>
+				<a href="##" class="tabbar_items">
+					<i class="iconfont icon-cart"></i>
+					<span>购物车</span>
+				</a>
+			</li>
+			<li>
+				<a href="##" class="tabbar_items">
+					<i class="iconfont icon-personal"></i>
+					<span>个人中心</span>
+				</a>
+			</li>
+			
+		</ul>
+	</div>
+	<div id="resource_container">
+		
+	</div>
+
+	<script>
+		var imgLoad = document.querySelectorAll('.loadLazy')
+		// console.log(imgLoad)
+		var arrayImg = Array.prototype.slice.call(imgLoad);
+		console.log(arrayImg)
+		var times = null;
+		setLoadLazy ();
+		window.addEventListener('scroll',function() {
+			clearTimeout(times);
+			//事件节流
+			times = setTimeout(function () {
+				//按需加载图片函数
+				setLoadLazy();
+				//按需加载资源函数
+				addResource();
+			},100)
+			
+		},false)
+		//懒加载
+		function setLoadLazy () {
+			for (var i = 0; i < arrayImg.length; i++) {
+				if (isVisible(arrayImg[i])) {
+					arrayImg[i].src = arrayImg[i].getAttribute('data-src');
+					arrayImg.splice(i, 1);
+					i--;
+				}
+			}
+
+			
+		}
+		//判断是否元素在可视区内
+		function isVisible(el) {
+			var elDom = el.getBoundingClientRect();
+
+			return elDom.bottom > 0 && elDom.top <= window.innerHeight && elDom.right > 0 && elDom.left <= window.innerWidth;
+		}
+		//按需加载jquery
+		var resource = document.getElementById('resource_container')
+		function addResource () {
+			if (isVisible(resource)) {
+				var JsResource = document.createElement('script');
+				JsResource.src = 'js/jquery-3.2.1.js';
+				document.body.appendChild(JsResource);	
+			}
+		}
+	</script>
+	<!-- 移动端适配方案simple.js -->
+	<script src="js/simple.js"></script>
+
+</body>
+</html>

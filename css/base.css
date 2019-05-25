@@ -1,0 +1,25 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+a {
+	text-decoration: none;
+	color: #333;
+	-webkit-tap-highlight-color:transparent; /*去掉a标签的点击高亮*/
+}
+
+li {
+	list-style: none;
+}
+input {
+	border:none;
+	font-size: 0.4rem;
+	outline: 0;
+}
+
+img {
+	width: 100%;
+	vertical-align: top;
+	border:none;
+}
